@@ -1,0 +1,23 @@
+body {
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: #1e1e2e;
+  color: #cdd6f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  max-width: 640px;
+  padding: 2rem;
+  background: #313244;
+  border-radius: 12px;
+}
+
+code {
+  background: #45475a;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}

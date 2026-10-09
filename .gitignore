@@ -1,0 +1,25 @@
+# ===== 系统垃圾文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器临时文件 =====
+*.swp
+*.tmp
+~$*
+
+# ===== 构建产物（第1章作业：观察这些文件不被 Git 记录）=====
+build/
+dist/
+*.exe
+*.zip
+
+# ===== 大文件/美术原始稿（模拟 Godot/Unity 场景）=====
+assets/raw/
+*.psd
+*.blend1
+
+# ===== 绝密：绝不能提交到 GitHub 的东西 =====
+.env
+*.key
+secrets/
